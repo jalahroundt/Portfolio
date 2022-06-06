@@ -82,12 +82,6 @@ nav img {
     color: white;
 }
 
-.iconImg:hover {
-    cursor: default;
-    transform: rotate(360deg);
-    transition: 0.7s all ease-in-out 0s;
-}
-
 .bgImg1 {
     position: fixed;
     width: 6em;
