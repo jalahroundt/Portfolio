@@ -1,0 +1,388 @@
+/*-- Sass Variables --*/
+$font-color: #CAB4B1;
+$accent: #dfdcd798;
+$swatch-yellow: #F2E3AE;
+$swatch-pink: #F2BFAE;
+$swatch-blue: #AEDEF2;
+$swatch-beige: #EFECE7;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $font-color;
+}
+
+/*-- Name Logo Text --*/
+.logo a{
+    font-family: Dazzle Unicase, Arial;
+    position: absolute;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: $swatch-yellow;
+    text-shadow: -2px 0 0 white, 2px 2px 0 white, 4px 4px 0 #F2AE90;
+    transition: all 0.3s ease 0s; 
+}
+
+.logo a:hover {
+    color: $swatch-pink;
+    text-shadow: -1px 0 0 white, 1px 1px 0 white, 4px 4px 0 $swatch-yellow;
+
+}
+
+/*-- Navigation wrapper --*/
+.top-bar {
+    background-color: #efece763;
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+.navigation-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+
+.navigation-bar li {
+    display: inline;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: Bebas Neue;
+}
+
+.navigation-bar li a {
+    text-decoration: none;
+    color: $font-color;
+}
+
+.main-wrapper {
+    margin: 0;
+    padding-top: 15%;
+}
+
+.main-left-text {
+    padding-left: 20%;
+}
+
+.main-text-center {
+    text-align: center;
+}
+
+button {
+    border-style: none;
+    border-radius: 30rem;
+    display: inline-block;
+    width: 25%;
+    padding: 2%;
+    background-color: $swatch-pink;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: grab;
+    box-shadow: 0px 8px 15px $swatch-beige;
+    transition: all 0.3s ease 0s;   
+}
+
+button:hover{
+    background-color: $swatch-yellow;
+    transform: translateY(-7px);
+}
+
+.social-list ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 22%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-list li {
+    padding: 20px;
+}
+
+.social-list img {
+    width: 48px;
+    height: 48px;
+}
+
+h1 {
+    font-family: Dazzle Unicase;
+    font-size: 3rem;
+    color: $swatch-yellow;
+    text-shadow: -2px 0 0 white, 2px 2px 0 white, 6px 6px 0 #F2AE90;
+    margin: 0;
+    padding: 0;
+}
+
+.project-title {
+    font-size: 1.5rem;
+}
+
+.project-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.image{
+ width: 28%;
+ padding: 10px;
+ margin: 2% 1.5%;
+ flex-grow: 1;
+ text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0px 9px 0.8rem $font-color);
+    transition: all 0.3s ease 0s;
+}
+
+.image img:hover {
+    opacity: 50%;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Dazzle Unicase, Arial;
+    font-size: 4rem;
+    font-weight: 900;
+    color: $swatch-blue;
+    text-shadow: 4px 4px $accent;
+}
+
+.msg-container {
+    margin: 5% auto;
+    background-color: $accent;
+    width: 50%;
+    padding: 10%;
+}
+
+.credentials {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+input[type=text]{
+    margin: 0 0 15px;
+    padding: 3%;
+    border: none;
+    width: 100%;
+}
+
+textarea {
+    margin: 0 auto;
+    padding: 3%;
+    border: none;
+    width: 100%;
+    height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-holder {
+    padding: 5%;
+    text-align: center;
+}
+
+#submit {
+    padding: 3%;
+    border-style: none;
+    border-radius: 30rem;
+    background-color: $swatch-pink;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: grab;
+    box-shadow: 0px 8px 15px $swatch-beige;
+    transition: all 0.3s ease 0s;   
+}
+
+#submit:hover {
+    background-color: $swatch-yellow;
+}
+
+.msg-info {
+    text-align: center;
+    opacity: 50%;
+}
+
+/*--About Page--*/
+.about-container {
+    display: flex;
+}
+
+.left-bar {
+    margin: 0;
+    background-color: $accent;
+    width: 40%;
+}
+
+.profile-pic {
+    text-align: center;
+    padding: 20% 0 10% 0;
+}
+
+.profile-pic img{
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.profile-description {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.left-bar button{
+    width: 50%;
+}
+
+.right-bar {
+    margin: 5%;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.info-row ul{
+    list-style: none;
+    column-count: 2;
+}
+
+.mobile-container {
+    display: none;
+}
+
+/*--Tablet Users--*/
+@media screen and (max-width: 992px) {
+    .logo a {
+        position: static;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    button {
+        width: 35%;
+        min-width: 250px;
+        font-size: 1.1rem;
+    }
+
+    .main-wrapper {
+        margin: 10%;
+    }    
+    .navigation-bar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-left-text {
+        text-align: center;
+        padding: 0%;
+    }
+
+    .image img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+/*-- Mobile Users --*/
+@media screen and (max-width: 600px) {
+    .logo a {
+        position: static;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+
+    button {
+        width: 50%;
+        font-size: 1.1rem;
+    }
+
+    .social-text {
+        display: none;
+    }
+
+    .main-wrapper {
+        margin: 10%;
+    }
+
+    .navigation-bar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .msg-button{
+        padding: 5%;
+    }    
+    .main-left-text {
+        text-align: center;
+        padding: 0%;
+    }
+
+    .image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .credentials{
+        display: block;
+        width: 100%;
+    }
+
+    .left-bar {
+        display: none;
+    }
+
+    .title{
+        font-size: 3rem;
+    }
+
+    .mobile-container {
+        display: block;
+        background-color: $accent;
+        padding: 5%;
+        margin: 5%;
+    }
+
+    .mobile-profile-pic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-profile-pic img {
+        width: 40%;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+
+    .mobile-profile-description {
+        text-align: center;
+    }
+}
