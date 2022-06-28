@@ -29,6 +29,28 @@
         <div id="ball" class="mt-5"></div>
     </div>
 
+    <!--Movement selection, changes how far the ball moves in one click-->
+
+        <div class="row">
+            <div class="col">
+                <label class="me-3">Move by: </label>
+                <button class="btn btn-primary" onclick="setMultiplier(1)" data-vs-toggle="button"
+                    aria-pressed="true">1px</button>
+                <button class="btn btn-primary" onclick="setMultiplier(5)" data-vs-toggle="button"
+                    aria-pressed="true">5px</button>
+                <button class="btn btn-primary" onclick="setMultiplier(10)" data-vs-toggle="button"
+                    aria-pressed="true">10px</button>
+                <button class="btn btn-primary" onclick="setMultiplier(20)" data-vs-toggle="button"
+                    aria-pressed="true">20px</button>
+                <button class="btn btn-primary" onclick="setMultiplier(30)" data-vs-toggle="button"
+                    aria-pressed="true">30px</button>
+                <button class="btn btn-primary" onclick="setMultiplier(40)" data-vs-toggle="button"
+                    aria-pressed="true">40px</button>
+            </div>
+        </div>
+    
+        <hr class="bg-dark border-2 border-top border-dark">
+    
     <!--Arrow Containers-->
 
     <div class="container m-auto p-3 border bg-light text-center">
@@ -89,27 +111,6 @@
         </div>
 
         <hr class="bg-dark border-2 border-top border-dark mt-3">
-
-        <!--Movement selection, changes how far the ball moves in one click-->
-
-        <div class="row">
-            <div class="col">
-                <label class="me-3">Move by: </label>
-                <button class="btn btn-primary" onclick="setMultiplier(1)" data-vs-toggle="button"
-                    aria-pressed="true">1px</button>
-                <button class="btn btn-primary" onclick="setMultiplier(5)" data-vs-toggle="button"
-                    aria-pressed="true">5px</button>
-                <button class="btn btn-primary" onclick="setMultiplier(10)" data-vs-toggle="button"
-                    aria-pressed="true">10px</button>
-                <button class="btn btn-primary" onclick="setMultiplier(20)" data-vs-toggle="button"
-                    aria-pressed="true">20px</button>
-                <button class="btn btn-primary" onclick="setMultiplier(30)" data-vs-toggle="button"
-                    aria-pressed="true">30px</button>
-                <button class="btn btn-primary" onclick="setMultiplier(40)" data-vs-toggle="button"
-                    aria-pressed="true">40px</button>
-            </div>
-        </div>
-        <hr class="bg-dark border-2 border-top border-dark">
 
         <!--Reset button-->
 
