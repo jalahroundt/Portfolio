@@ -1,0 +1,195 @@
+.home {
+    background-image: url("../imgs/kalibg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana, Arial, Sans-Serif;
+}
+
+.music{
+    background-color: black;
+}
+
+.news{
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 13em;
+    margin-top: 20%;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: white;
+    font-family :-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 300;
+}
+
+p {
+    margin: 50px;
+    color: white;
+    font-family :-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em; 
+    font-weight: 300;  
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 30px;
+    background-color: rgb(0,0,0, 0.7);
+    color: white;
+}
+
+#centerText {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 60%;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#bannerImg {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+#bannerText {
+    position: fixed;
+    left: 94px;
+    display: inline-block;
+    margin-left: 2%;
+    line-height: 20px;
+    padding: 20px;
+}
+
+#bannerText:hover {
+    color: magenta;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12pt;
+    padding: 20px;
+}
+
+nav ul{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+li a {
+    color: white;
+    text-decoration-line: none;
+}
+
+li a:hover {
+    color: magenta;
+}
+
+#content{
+    margin: 20%;
+    margin-top: 10%;
+}
+
+.albumList {
+    padding: 20px;
+}
+
+.album {
+    position: relative;
+    width: 20em;
+    height: auto;
+    display: inline-block;
+}
+
+.info {
+    padding: 2%;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.albumTitle {
+    font-size: 3em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.newsHeader {
+    font-size: 5em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.newsTitle {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.newsImage {
+    width: 900px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.newsText {
+    font-size: 1em;
+}
