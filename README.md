@@ -9,4 +9,7 @@ This is my first portfolio focused on front end development projects. Here I wil
            <li>(06/29/22) - 'Sandwichies - HTML Email' uploaded to project page.</li>
            <li>(07/22/22) - Portfolio 3.0 was uploaded. </li>
            <li>(07/30/22) - 'SudsUp' webpage was uploaded. </li>
+           <ul>
+               <li> Design process found here: https://www.figma.com/community/file/1135260686905211627</li>
+           </ul>
 </ul>
