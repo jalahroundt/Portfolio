@@ -8,4 +8,5 @@ This is my first portfolio focused on front end development projects. Here I wil
            <li>(06/28/22) - 'Move The Ball' project uploaded to projects page.</li>
            <li>(06/29/22) - 'Sandwichies - HTML Email' uploaded to project page.</li>
            <li>(07/22/22) - Portfolio 3.0 was uploaded. </li>
+           <li>(07/30/22) - 'SudsUp' webpage was uploaded. </li>
 </ul>
