@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suds Up Car Wash</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="/imgs/icons8-bubbles-32.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ekf0fth.css">
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="page-container" id="main">
+        <nav>
+            <div id="nav-logo"><img src="imgs/logo.png" /></div>
+            <div class="desktop-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Memberships</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <button id="dropdown-icon">
+                <h3>Menu</h3>
+            </button>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Memberships</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-card">
+            <div class="left-main-card">
+                <h2>Car Looking <p class="accent-text">Scruffy?</p>
+                </h2>
+                <h3>Time for a scrub!</h3>
+                <h4>Need a good detailing? We do that too.</h4>
+                <button class="regular-btn" onClick="document.getElementById('membership').scrollIntoView();">View Our Mmberships</button>
+            </div>
+            <div class="right-main-card">
+                <img src="imgs/2-people-washing-car.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="page-container" id="select-wash">
+        <h3>Select Your Wash</h3>
+        <div class="select-wash-mobile">
+            <div class="wash-menu-mobile">
+                <select name="mobile-menu" id="mobile-menu">
+                    <option value="Small Suds">Small Suds</option>
+                    <option value="Premium Suds">Premium Suds</option>
+                    <option value="Members Only">Members Only</option>
+                    <option value="Extreme Suds">Extreme Suds</option>
+                </select>
+            </div>
+            <div class="wash-detail-cards">
+                <div class="detail-card-left">
+                    <div class="detail-header">Interior</div>
+                    <div class="detail-description" id="mobile-interior-desc">
+                        <h4>No Interior Cleaning</h4>
+                    </div>
+                </div>
+                <div class="detail-card-right">
+                    <div class="detail-header">Exterior</div>
+                    <div class="detail-description" id="mobile-exterior-desc">
+                        <h4>Simple Wash with our suds formula.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select-wash-desktop">
+            <div class="wash-tabs">
+                <button id="small-tab" autofocus>Small Suds</button>
+                <button id="premium-tab">Premium Suds</button>
+                <button id="members-tab">Members Only</button>
+                <button id="extreme-tab">Extreme Suds</button>
+            </div>
+            <div class="wash-cards-desktop">
+                <div class="wash-card-desktop-left">
+                    <div class="wash-card-header-desktop">Interior</div>
+                    <div class="wash-card-desc-desktop" id="desktop-interior-desc">
+                        <h4 id="interior-description">No Interior Cleaning</h4>
+                    </div>
+                </div>
+                <div class="wash-card-desktop-right">
+                    <div class="wash-card-header-desktop">Exterior</div>
+                    <div class="wash-card-desc-desktop" id="desktop-exterior-desc">
+                        <h4 id="exterior-description">Simple Wash with our suds formula</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-container" id="why-choose-us">
+        <h2 id="choose-us-header">Why Choose Suds?</h2>
+        <div class="choose-us-card-container">
+            <div class="choose-us-cards">
+                <div class="choose-card">
+                    <img src="imgs/5755614.jpg" />
+                    <h3>Eco Friendly Solutions</h3>
+                    <h4>Our suds formulas are safe for the environment
+                        and cost effective, keeping our prices low for you.</h4>
+                </div>
+                <div class="choose-card">
+                    <img src="imgs/5750644 copy.jpg" />
+                    <h3>We Love Your Car</h3>
+                    <h4>Our team members pride themselves in safe handling
+                        of your car. No chips, scratches, or bruises permitted.</h4>
+                </div>
+                <div class="choose-card">
+                    <img src="imgs/5749769.jpg" />
+                    <h3>Top Rated Machinery</h3>
+                    <h4>Our car wash tunnel provides a clean sudsy scrub each time. </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-container" id="green-initiative">
+        <h3>About Our Green Initiative</h3>
+        <div class="green-init-container">
+            <div class="green-image">
+                <img src="imgs/3823344 copy.jpg" alt="">
+            </div>
+            <div class="green-description">
+                <p>Our business is dedicated to going green. We pride ourselves in recycling and using cleaning agents
+                    that are safe for the earth. You can even use them on your pets!</p>
+                <p>We want to contribute to the betterment of climate change and encourage others to do so. </p>
+                <p>To do this, we offer 50% all washes for hybrid and electric cars! Bring them on by, we will be sure
+                    to accomodate you.</p>
+                <p>20% of all proceeds will go the the ‘GO GREEN’ initiative fund founded by the Car Wash Association of
+                    this state. </p>
+            </div>
+        </div>
+    </div>
+    <div class="page-container" id="membership">
+        <div class="background-gradient">
+            <h3>Become a Suds Member today!</h3>
+            <div class="radio-container">
+                <form action="" id="radio-buttons-desktop">
+                    <div class="radio-card">
+                        <!--Child 1-->
+                        <div class="radio-description">
+                            <h4>Basic</h4>
+                            <img src="imgs/10240 copy 5.png" alt="">
+                            <h4>$9.99</h4>
+                            <h5>monthly</h5>
+                        </div>
+                        <input type="radio" name="radio-member-button">
+                    </div>
+                    <div class="radio-card">
+                        <!--Child 2-->
+                        <div class="radio-description" id="radio-card-2">
+                            <h4>Premium</h4>
+                            <img src="imgs/10240 copy 4.png" alt="">
+                            <h4>$19.99</h4>
+                            <h5>monthly</h5>
+                        </div>
+                        <input type="radio" name="radio-member-button">
+                    </div>
+                    <div class="radio-card">
+                        <!--Child 3-->
+                        <div class="radio-description">
+                            <h4>Premier</h4>
+                            <img src="imgs/10240 copy 3.png" alt="">
+                            <h4>$29.99</h4>
+                            <h5>monthly</h5>
+                        </div>
+                        <input type="radio" name="radio-member-button">
+                    </div>
+                </form>
+            </div>
+            <div class="input-container">
+                <form action="" id="member-form">
+                    <div class="form-input-container">
+                        <input type="email" name="member-info" placeholder="Email*">
+
+                        <div class="input-column-1">
+                            <input type="text" name="member-info" placeholder="Name On Card*">
+                            <input type="number" name="member-info" placeholder="Card Number">
+                            <input type="text" name="member-info" placeholder="MM/YY">
+                            <input type="number" name="member-info" placeholder="CVC">
+                        </div>
+                        <div class="input-column-2">
+                            <input type="text" name="member-info" placeholder="License Plate">
+                            <input type="number" name="member-info" placeholder="Year*">
+                            <input type="text" name="member-info" placeholder="Make*">
+                            <input type="text" name="member-info" placeholder="Model*">
+                        </div>
+                        <input type="submit" value="Join Now">
+                        <p>You will receive a confirmation notification to your email</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-logo"><a href="#"><img src="imgs/logo.png" /></a></div>
+        <div class="sitemap-container">
+            <section>
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Washing</a></li>
+                    <li><a href="#">Detailing</a></li>
+                    <li><a href="#">Café</a></li>
+                </ul>
+            </section>
+            <section>
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Green Initiatives</a></li>
+                    <li><a href="#">Cleaning Formulas</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </section>
+            <section>
+                <h4>Locations</h4>
+                <ul>
+                    <li><a href="#">Baltimore</a></li>
+                    <li><a href="#">White Marsh</a></li>
+                    <li><a href="#">Columbia</a></li>
+                    <li><a href="#">Glen Burnie</a></li>
+                </ul>
+            </section>
+            <section>
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>(667)-123-4567</li>
+                    <li>CarWash St.</li>
+                    <li>Clean, MD</li>
+                    <br>
+                    <li>sudsup.manager@gmail.com</li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
