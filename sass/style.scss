@@ -62,7 +62,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   text-shadow: $border-pink;
 }
@@ -106,13 +106,34 @@ h6 {
     color: $swatch-green-accent;
   }
 }
+/*-- Naviagtion --*/
+nav {
+  margin: 10% auto;
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      list-style-type: none;
+
+      a{
+        text-decoration: none;
+        color: $swatch-green;
+      }
+
+      a:hover {
+        color: $swatch-green-accent;
+      }
+    }
+  }
+}
 
 /*-- First Page --*/
 .main-container {
-  margin: $container-margin;
+  margin: 10%;
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 100vh;
 }
 
 .main-text {
@@ -187,13 +208,18 @@ h6 {
   }
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /*-- Second Page --*/
 .about-page {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: $swatch-pink;
+  background: linear-gradient(0deg, $swatch-pink 60%, white);
 }
 
 .about-container {
@@ -262,10 +288,10 @@ h6 {
 /*-- Third Page --*/
 
 .skills-page {
-  background: $swatch-pink;
+  background: linear-gradient(0deg, white, $swatch-pink 20%);
   display: grid;
-  height: 100vh;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+  padding: 10% 0;
 
   h3 {
     text-shadow: $border-pink-accent;
@@ -369,11 +395,14 @@ h6 {
 }
 
 .projects-header {
-  padding: 5% 0 0 10%;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .projects-description {
-  padding: 0 0 0 10%;
+  h1 {
+    text-align: center;
+  }
 }
 
 .projects-grid {
@@ -467,7 +496,7 @@ h6 {
 .overlay4-content,
 .overlay5-content,
 .overlay6-content {
-  padding: 200px;
+  padding: 10% 30%;
   color: white;
 }
 
@@ -497,6 +526,8 @@ h6 {
 
 .contact-page {
   background-color: white;
+  margin: 0 10%;
+  padding-bottom: 10%;
 }
 
 .contact-header {
@@ -505,7 +536,7 @@ h6 {
 }
 
 .contact-text {
-  margin-left: 10%;
+  margin: 0 10%;
   margin-bottom: 5%;
   padding: 50px 0 0 0;
 
@@ -519,7 +550,7 @@ h6 {
 }
 
 .form-container {
-  margin: $container-margin;
+  margin: 0 auto;
   width: 50%;
 }
 
@@ -607,15 +638,8 @@ footer {
 
 /*--EXTRA LARGE DESKTOP STYLES --*/
 @media only screen and (min-width: 1280px) {
-  .main-container {
-    margin: 0 20% 0 20%;
-  }
-}
-
-/*-- LARGE DESKTOP STYLES --*/
-@media only screen and (max-width: 1280px) {
-  .main-container {
-    margin: 0 15% 0 15%;
+  body {
+    margin: 0 20%;
   }
 }
 
@@ -639,12 +663,8 @@ footer {
   }
 
   /*--ABOUT--*/
-  .about-page {
-    height: 100vh;
-  }
-
   .about-container {
-    margin: 0 15%;
+    margin: 10% 15%;
   }
 
   #profile-image {
@@ -682,7 +702,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
     margin: 0 0 5% 0;
     text-align: center;
   }
@@ -699,7 +718,6 @@ footer {
 
   /*--ABOUT--*/
   .about-container {
-    height: 100vh;
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -771,14 +789,14 @@ footer {
 
 /*-- MOBILE/SMARTPHONES --*/
 @media only screen and (max-width: 425px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
+
   .mobile-main-image {
     img {
       width: 150px;
     }
-  }
-
-  .about-container {
-    height: 100vh;
   }
 
   .about-header {
@@ -786,7 +804,6 @@ footer {
   }
 
   .skills-page {
-    height: 200vh;
     display: flex;
     flex-direction: column;
   }
@@ -806,6 +823,10 @@ footer {
 
   .progress-percentage {
     display: contents;
+  }
+
+  .projects-grid {
+    display: block;
   }
 
   .projects-card {

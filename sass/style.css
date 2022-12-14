@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, #ffaaab 3px 3px;
 }
@@ -62,12 +62,31 @@ h6 {
   color: #3f817b;
 }
 
+/*-- Naviagtion --*/
+nav {
+  margin: 10% auto;
+}
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #99d7d2;
+}
+nav ul li a:hover {
+  color: #3f817b;
+}
+
 /*-- First Page --*/
 .main-container {
-  margin: 0 20%;
+  margin: 10%;
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 100vh;
 }
 
 .main-text {
@@ -132,13 +151,18 @@ h6 {
   width: 36px;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /*-- Second Page --*/
 .about-page {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffaaab;
+  background: linear-gradient(0deg, #ffaaab 60%, white);
 }
 
 .about-container {
@@ -200,10 +224,10 @@ h6 {
 
 /*-- Third Page --*/
 .skills-page {
-  background: #ffaaab;
+  background: linear-gradient(0deg, white, #ffaaab 20%);
   display: grid;
-  height: 100vh;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+  padding: 10% 0;
 }
 .skills-page h3 {
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, #be5c5e 3px 3px;
@@ -307,11 +331,12 @@ h6 {
 }
 
 .projects-header {
-  padding: 5% 0 0 10%;
+  text-align: center;
+  margin: 10px 0;
 }
 
-.projects-description {
-  padding: 0 0 0 10%;
+.projects-description h1 {
+  text-align: center;
 }
 
 .projects-grid {
@@ -403,7 +428,7 @@ h6 {
 .overlay4-content,
 .overlay5-content,
 .overlay6-content {
-  padding: 200px;
+  padding: 10% 30%;
   color: white;
 }
 
@@ -432,6 +457,8 @@ h6 {
 /*-- Contact Form --*/
 .contact-page {
   background-color: white;
+  margin: 0 10%;
+  padding-bottom: 10%;
 }
 
 .contact-header {
@@ -440,7 +467,7 @@ h6 {
 }
 
 .contact-text {
-  margin-left: 10%;
+  margin: 0 10%;
   margin-bottom: 5%;
   padding: 50px 0 0 0;
 }
@@ -452,7 +479,7 @@ h6 {
 }
 
 .form-container {
-  margin: 0 20%;
+  margin: 0 auto;
   width: 50%;
 }
 
@@ -535,14 +562,8 @@ footer .credits-list a {
 
 /*--EXTRA LARGE DESKTOP STYLES --*/
 @media only screen and (min-width: 1280px) {
-  .main-container {
-    margin: 0 20% 0 20%;
-  }
-}
-/*-- LARGE DESKTOP STYLES --*/
-@media only screen and (max-width: 1280px) {
-  .main-container {
-    margin: 0 15% 0 15%;
+  body {
+    margin: 0 20%;
   }
 }
 /*-- DESKTOP STYLES --*/
@@ -558,11 +579,8 @@ footer .credits-list a {
     font-size: 1.7rem;
   }
   /*--ABOUT--*/
-  .about-page {
-    height: 100vh;
-  }
   .about-container {
-    margin: 0 15%;
+    margin: 10% 15%;
   }
   #profile-image img {
     width: 250px;
@@ -592,7 +610,6 @@ footer .credits-list a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
     margin: 0 0 5% 0;
     text-align: center;
   }
@@ -608,7 +625,6 @@ footer .credits-list a {
   }
   /*--ABOUT--*/
   .about-container {
-    height: 100vh;
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -665,17 +681,16 @@ textarea {
 }
 /*-- MOBILE/SMARTPHONES --*/
 @media only screen and (max-width: 425px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
   .mobile-main-image img {
     width: 150px;
-  }
-  .about-container {
-    height: 100vh;
   }
   .about-header {
     margin: 0;
   }
   .skills-page {
-    height: 200vh;
     display: flex;
     flex-direction: column;
   }
@@ -692,6 +707,9 @@ textarea {
   }
   .progress-percentage {
     display: contents;
+  }
+  .projects-grid {
+    display: block;
   }
   .projects-card {
     height: 50%;
