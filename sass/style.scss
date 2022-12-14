@@ -458,6 +458,7 @@ nav {
   text-align: center;
 }
 
+#overlay0,
 #overlay1,
 #overlay2,
 #overlay3,
@@ -477,6 +478,7 @@ nav {
   transition: 0.5s;
 }
 
+.overlay0-close-btn,
 .overlay1-close-btn,
 .overlay2-close-btn,
 .overlay3-close-btn,
@@ -490,6 +492,7 @@ nav {
   float: right;
 }
 
+.overlay0-content,
 .overlay1-content,
 .overlay2-content,
 .overlay3-content,

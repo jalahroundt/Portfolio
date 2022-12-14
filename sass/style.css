@@ -390,6 +390,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
+#overlay0,
 #overlay1,
 #overlay2,
 #overlay3,
@@ -409,6 +410,7 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
+.overlay0-close-btn,
 .overlay1-close-btn,
 .overlay2-close-btn,
 .overlay3-close-btn,
@@ -422,6 +424,7 @@ nav ul li a:hover {
   float: right;
 }
 
+.overlay0-content,
 .overlay1-content,
 .overlay2-content,
 .overlay3-content,
