@@ -1,3 +1,10 @@
+function openOverlay0() {
+  document.getElementById("overlay0").style.width = "100%";
+}
+
+function closeOverlay0() {
+  document.getElementById("overlay0").style.width = "0%";
+}
 function openOverlay1() {
   document.getElementById("overlay1").style.width = "100%";
 }

@@ -57,339 +57,405 @@
         </div>
     </div>
 
-<!-- All Pages Flex Container-->
-<div class="flex-container">
+    <!-- All Pages Flex Container-->
+    <div class="flex-container">
 
-    <!-- About -->
-    <div class="about-page" id="about">
-        <div class="about-container">
+        <!-- About -->
+        <div class="about-page" id="about">
+            <div class="about-container">
 
-            <div class="about-header">
-                <h2>About Me</h2>
+                <div class="about-header">
+                    <h2>About Me</h2>
+                </div>
+                <div id="profile-image">
+                    <img src="imgs/undraw_learning_sketching_nd4f.png" alt="">
+                    <a href="/JalahRoundtree-Resume copy.pdf" download>
+                        <button id="resume-button">Download Resume</button>
+                    </a>
+                </div>
+                <div id="profile-description">
+                    <p>Hi! I'm Ja'lah (pronouced “Jay-lah”). I like to bring web designs to life! I develop clean web
+                        responsive
+                        code for web sites and web pages.</p>
+                    <p>I was first introduced to HTML and CSS as a teenager by tinkering with profile themes on tumblr.
+                        Upon
+                        stumbling across this field, I decided that it was something I'd like to pursue as a career.
+                    </p>
+                    <p>
+                        I started my college career at Towson University pursuing my degree in Computer Science. I spent
+                        2
+                        years
+                        studying C++ and Java. I transferred to Univeristy of Maryland Global Campus to put my complete
+                        focus on
+                        front-end web development. I began pursuing my bachelor's in Digital Media and Web Technology 3
+                        years later.
+                    </p>
+                    <p>
+                        I'm currently in my last semester, set to graduate December 2022!</p>
+                    </p>
+                </div>
             </div>
-            <div id="profile-image">
-                <img src="imgs/undraw_learning_sketching_nd4f.png" alt="">
-                <a href="/JalahRoundtree-Resume copy.pdf" download>
-                    <button id="resume-button">Download Resume</button>
-                </a>
+        </div>
+
+        <!-- Skills -->
+        <div class="skills-page" id="skills">
+            <div class="skills-header">
+                <h2>Skills</h2>
             </div>
-            <div id="profile-description">
-                <p>Hi! I'm Ja'lah (pronouced “Jay-lah”). I like to bring web designs to life! I develop clean web
-                    responsive
-                    code for web sites and web pages.</p>
-                <p>I was first introduced to HTML and CSS as a teenager by tinkering with profile themes on tumblr. Upon
-                    stumbling across this field, I decided that it was something I'd like to pursue as a career.
-                </p>
-                <p>
-                    I started my college career at Towson University pursuing my degree in Computer Science. I spent 2
-                    years
-                    studying C++ and Java. I transferred to Univeristy of Maryland Global Campus to put my complete
-                    focus on
-                    front-end web development. I began pursuing my bachelor's in Digital Media and Web Technology 3
-                    years later.
-                </p>
-                <p>
-                    I'm currently in my last semester, set to graduate December 2022!</p>
-                </p>
+
+            <div class="skills-container">
+                <h3>Languages</h3>
+                <div class="skills-row">
+                    <h4>HTML</h4>
+                    <div class="skills-bar">
+                        <div class="skills-progress" id="progress-HTML"></div>
+                    </div>
+                    <div class="progress-percentage">
+                        <h5>1 yr</h5>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <h4>CSS</h4>
+                    <div class="skills-bar">
+                        <div class="skills-progress" id="progress-CSS"></div>
+                    </div>
+                    <div class="progress-percentage">
+                        <h5>1 yr</h5>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <h4>JavaScript</h4>
+                    <div class="skills-bar">
+                        <div class="skills-progress" id="progress-JS"></div>
+                    </div>
+                    <div class="progress-percentage">
+                        <h5>10 mo</h5>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <h4>Java</h4>
+                    <div class="skills-bar">
+                        <div class="skills-progress" id="progress-JAVA"></div>
+                    </div>
+                    <div class="progress-percentage">
+                        <h5>1 yr</h5>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <h4>Bootstrap</h4>
+                    <div class="skills-bar">
+                        <div class="skills-progress" id="progress-BS"></div>
+                    </div>
+                    <div class="progress-percentage">
+                        <h5>6 mo</h5>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <h4>Sass</h4>
+                    <div class="skills-bar">
+                        <div class="skills-progress" id="progress-SASS"></div>
+                    </div>
+                    <div class="progress-percentage">
+                        <h5>1 yr</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs-container">
+                <h3>Programs</h3>
+                <div class="programs-icons">
+                    <img src="imgs/icons8-figma.svg" alt="">
+                    <img src="imgs/icons8-visual-studio-code-2019-96.png" alt="">
+                    <img src="imgs/icons8-adobe-xd-96.png" alt="">
+                    <img src="imgs/icons8-adobe-photoshop-96.png" alt="">
+                    <img src="imgs/icons8-adobe-illustrator-96.png" alt="">
+                    <img src="imgs/icons8-microsoft-word-2019-96.png" alt="">
+                    <img src="imgs/icons8-microsoft-excel-2019-96.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--Projects-->
+        <div class="projects-page" id="work">
+            <div id="overlay0" class="project-0-overlay">
+                <a href="javascript:void(0)" class="overlay0-close-btn" onclick="closeOverlay0()">&times;</a>
+                <div class="overlay0-content">
+                    <h3 class="overlayTitle0">Love Notes and Pens Synopsis</h3>
+                    <p>This project was trying to commincate my skills in the used of HTML, HTML tags, CSS3, and
+                        Javascript. In this project I developed the wireframes in figma. I also created a flow chart to
+                        show the path a consumer would take when trying to purchase a product. This website contains 5
+                        item pages, a privacy policy, a contact page with an interactive map, and a form to submit a
+                        review. I would like to further develop this project going forward as it has potential to be a
+                        real e-commerce website.</p>
+                </div>
+            </div>
+            <div id="overlay1" class="project-1-overlay">
+                <a href="javascript:void(0)" class="overlay1-close-btn" onclick="closeOverlay1()">&times;</a>
+                <div class="overlay1-content">
+                    <h3 class="overlayTitle1">Move The Ball Synopsis</h3>
+                    <p>This project is trying to communicate my skills in JavaScript and Bootstrap. I wanted to get
+                        experience using bootstrap as a front-end toolkit and use JavaScript to test my knowledge in
+                        HTML
+                        DOM manipulation. There are many companies that use toolkits and custom frameworks, so I thought
+                        this would be a good start. I built the framework using basic HTML and Bootstrap, then
+                        configured
+                        the buttons with JavaScript. You are able to move the ball around using the arrow buttons. You
+                        can
+                        also get creative and customize the ball! I wanted to see how much customization I could add
+                        into
+                        one small project. This is a nice small fun project to play create and play around in to learn
+                        JavaScript and Bootstrap.</p>
+                </div>
+            </div>
+            <div id="overlay2" class="project-2-overlay">
+                <a href="javascript:void(0)" class="overlay2-close-btn" onclick="closeOverlay2()">&times;</a>
+                <div class="overlay2-content">
+                    <h3 class="overlayTitle2">Drinkies Synopsis</h3>
+                    <p>This project is trying to communicate my skills in User Interface and Experience, and
+                        E&ndash;Commerce
+                        website planning. I wanted to gain experience designing and planning out an e-commerce website
+                        using
+                        Figma. Planning the website in Figma made the building of the skeleton of the website with HTML
+                        a
+                        lot easier. I was able to easily determine which tags to use and where to utilize them. This
+                        project
+                        was created with just the HTML and CSS programming languages. The website also includes a
+                        sign-up
+                        form to obtain a Drinkies membership. The form does not include form validation, which is
+                        something
+                        I wish to incorporate on future personal projects.</p>
+                </div>
+            </div>
+            <div id="overlay3" class="project-3-overlay">
+                <a href="javascript:void(0)" class="overlay3-close-btn" onclick="closeOverlay3()">&times;</a>
+                <div class="overlay3-content">
+                    <h3 class="overlayTitle3">Portfolio 1.0 Synopsis</h3>
+                    <p>This project is the first rendition of my portfolio. This portfolio was created for CMST 385
+                        &ndash;
+                        Principles of Web Design and Technology 1 here at UMGC. This project showcases the basic
+                        knowledge
+                        and usage of HTML and CSS tags, classes, and lists. It also showcases my graphic design and
+                        color
+                        scheme skills. The color scheme for this project is a rainbow theme because my goal was to
+                        incorporate web development with vibrant art. In this project, I was able to create a navigation
+                        bar
+                        using links and use unordered lists. The navigation bar uses buttons, decorated as icons, to
+                        link to
+                        3 different pages: the about page, projects page and contact page. Each page shows their
+                        respective
+                        information and link to each other throughout the site.</p>
+                </div>
+            </div>
+            <div id="overlay4" class="project-4-overlay">
+                <a href="javascript:void(0)" class="overlay4-close-btn" onclick="closeOverlay4()">&times;</a>
+                <div class="overlay4-content">
+                    <h3 class="overlayTitle1">Sandwichies Synopsis</h3>
+                    <p>This project, “Sandwichies”, is a personal project used to simulate the creation of an HTML
+                        email. I
+                        wanted to try my hand at the design and implementation of this web marketing format. I wrote
+                        this
+                        project in Microsoft Visual Studio Code using just the basic HTML and CSS programming languages.
+                        The
+                        standard practice is to avoid using in-line styling, however for some mass email distributing
+                        platforms it is required, so I included my styling in that form. I wanted to aim for a classic,
+                        minimalistic design for this project and opted in for a black and white color scheme. By using
+                        this
+                        color theme, it shifts the focus onto the image, which is the product being sold, a sandwich or
+                        burger.</p>
+                </div>
+            </div>
+            <div id="overlay5" class="project-5-overlay">
+                <a href="javascript:void(0)" class="overlay5-close-btn" onclick="closeOverlay5()">&times;</a>
+                <div class="overlay5-content">
+                    <h3 class="overlayTitle5">MGAKA Synopsis</h3>
+                    <p>This project is a personal project used to practice utilization of Figma, and my skills in User
+                        Interface and Experience Design. The goal of this project was to create an
+                        all&ndash;in&ndash;one
+                        landing,
+                        portfolio, and contact page for a client who is a comic book artist. The client in this project
+                        was
+                        looking to also get their E&ndash;commerce comic book shop website designed and built by me. I
+                        used
+                        Figma
+                        for this entire project. In Figma, you can utilize the column feature. This column feature
+                        allows
+                        you to mimic the 12&ndash;column setup that you create using CSS grid. Using the 12&ndash;column
+                        CSS
+                        grid
+                        ensures that your webpage can be setup to be web responsive, which was a big point that I wanted
+                        to
+                        make when completing this project. Because this design was set up using the 12&ndash;column CSS
+                        grid
+                        formatting, it can be easily written in code exactly how it was designed, which will satisfy the
+                        client.</p>
+                </div>
+            </div>
+            <div id="overlay6" class="project-6-overlay">
+                <a href="javascript:void(0)" class="overlay6-close-btn" onclick="closeOverlay6()">&times;</a>
+                <div class="overlay6-content">
+                    <h3 class="overlayTitle6">Baby Bee's Chunky Knit Blankets Synopsis</h3>
+                    <p>This project was an assignment for CMST 308&ndash;User Experience and Interface Design here at
+                        UMGC. The
+                        goal of this website was to plan, design, and create a working demo for a website of our choice.
+                        I
+                        drafted the concept of an E&ndash;commerce website for a merchant that would sell chunky knit
+                        woven
+                        blankets. Outside of Figma, which is where I created the wireframes and demo, I created a mood
+                        board
+                        of websites from clothing businesses such as Nike, Old Navy, and Ugg. The demo allows the user
+                        to
+                        begin at the main landing page of the website. From there you can click the “Shop Blankets” call
+                        to
+                        action button, which will redirect you to the shop page. The shop page displays all the items in
+                        grid format, with their names, prices, and the add to cart button. There is also a filter system
+                        on
+                        the left side of the page that allows you to choose a specific blanket size. After clicking the
+                        add
+                        to cart button, you are redirected to the item detail page, allowing the user to customize the
+                        items
+                        and add multiple items if they wish. The price also updates as they increase the number of items
+                        in
+                        their cart. Clicking the add to cart button again will bring you to your shopping cart where you
+                        can
+                        add your coupon, then submit your purchase. After completing the purchase, the site asks you to
+                        leave a review. This project demonstrates my understanding of an e-commerce website workflow,
+                        and
+                        usability of its features to help a user purchase an item.</p>
+                </div>
+            </div>
+
+            <div class="projects-header">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-description">
+                <h1>Here's what I've worked on this year!</h1>
+            </div>
+            <div class="projects-grid">
+                <div class="overlay-container">
+                    <a href="https://jalahroundt.github.io/Portfolio/Love-Notes-And-Pens/index.html" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#1 Love Notes and Pens (2022)<br>Personal E-Commerce Website Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card card-green">
+                            <img src="imgs/LNAP-thumbnail.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay0()">Read Synopsis</button>
+                </div>
+                <div class="overlay-container">
+                    <a href="https://jalahroundt.github.io/Portfolio/MoveTheBall/index.html" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#2 Move The Ball (2022)<br>Personal JavaScript Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card card-green">
+                            <img src="imgs/movetheball-thumbnail.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay1()">Read Synopsis</button>
+                </div>
+                <div class="overlay-container">
+                    <a href="https://jalahroundt.github.io/Portfolio/Drinkies/index.html" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#3 Drinkies (2022)<br>Personal E-Commerce Site Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card">
+                            <img src="imgs/drinkies_ss copy.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay2()">Read Synopsis</button>
+                </div>
+                <div class="overlay-container">
+                    <a href="https://jalahroundt.github.io/Portfolio/Portfolio-1.0/index.html" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#4 Portfolio 1.0 CMST 385 (2022)<br>Personal Portfolio Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card card-yellow">
+                            <img src="imgs/portfolio1.0-thumbnail.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay3()">Read Synopsis</button>
+                </div>
+                <div class="overlay-container">
+                    <a href="https://jalahroundt.github.io/Portfolio/HTML-Email/Sandwichies/index.html" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#5 Sandwichies (2022)<br>Personal HTML-Email Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card">
+                            <img src="imgs/Sandwichies-SS1.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay4()">Read Synopsis</button>
+                </div>
+                <div class="overlay-container">
+                    <a href="https://www.behance.net/gallery/145861019/Comic-Store-UI-Design" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#6 MGAKA (2022)<br>Personal E-Commerce Site Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card card-yellow">
+                            <img src="imgs/mgaka-thumbnail.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay5()">Read Synopsis</button>
+                </div>
+                <div class="overlay-container">
+                    <a href="https://www.figma.com/community/file/1101931576406954979" target="_blank">
+                        <div class="projects-card-description">
+                            <h6>#7 BBCKB CMST 308 (2022)<br>Personal E-Commerce Site Project in VS Code</h6>
+                        </div>
+                        <div class="projects-card card-green">
+                            <img src="imgs/BBCKB-thumbnail.png">
+                        </div>
+                    </a>
+                    <button class="synopsis-btn" onclick="openOverlay6()">Read Synopsis</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact-page" id="contact">
+            <div class="contact-text">
+                <div class="contact-header">
+                    <h1>Let's talk!</h1>
+                </div>
+                <div class="contact-description">
+                    <p>Use the contact form to send a quick message to my gmail address. All messages will be sent to
+                        <b><a href="mailto:jalahroundt@gmail.com">jalahroundt@gmail.com.</a></b> I check my emails
+                        everyday, I will be sure to get back to you quickly. For an urgent response, feel free to
+                        contact me
+                        on my cell at (410) 900-3777.
+                    </p>
+                </div>
+            </div>
+            <div class="form-container">
+                <form action="https://formspree.io/f/xeqnwqgb" method="POST">
+
+                    <div class="top-form">
+                        <div class="top-form-column">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name...">
+                        </div>
+
+                        <div class="form-space"></div>
+
+                        <div class="top-form-column">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Email...">
+                        </div>
+                    </div>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject...">
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input id="submit" type="submit" value="Send Message">
+
+                </form>
             </div>
         </div>
     </div>
-
-    <!-- Skills -->
-    <div class="skills-page" id="skills">
-        <div class="skills-header">
-            <h2>Skills</h2>
-        </div>
-
-        <div class="skills-container">
-            <h3>Languages</h3>
-            <div class="skills-row">
-                <h4>HTML</h4>
-                <div class="skills-bar">
-                    <div class="skills-progress" id="progress-HTML"></div>
-                </div>
-                <div class="progress-percentage">
-                    <h5>1 yr</h5>
-                </div>
-            </div>
-            <div class="skills-row">
-                <h4>CSS</h4>
-                <div class="skills-bar">
-                    <div class="skills-progress" id="progress-CSS"></div>
-                </div>
-                <div class="progress-percentage">
-                    <h5>1 yr</h5>
-                </div>
-            </div>
-            <div class="skills-row">
-                <h4>JavaScript</h4>
-                <div class="skills-bar">
-                    <div class="skills-progress" id="progress-JS"></div>
-                </div>
-                <div class="progress-percentage">
-                    <h5>10 mo</h5>
-                </div>
-            </div>
-            <div class="skills-row">
-                <h4>Java</h4>
-                <div class="skills-bar">
-                    <div class="skills-progress" id="progress-JAVA"></div>
-                </div>
-                <div class="progress-percentage">
-                    <h5>1 yr</h5>
-                </div>
-            </div>
-            <div class="skills-row">
-                <h4>Bootstrap</h4>
-                <div class="skills-bar">
-                    <div class="skills-progress" id="progress-BS"></div>
-                </div>
-                <div class="progress-percentage">
-                    <h5>6 mo</h5>
-                </div>
-            </div>
-            <div class="skills-row">
-                <h4>Sass</h4>
-                <div class="skills-bar">
-                    <div class="skills-progress" id="progress-SASS"></div>
-                </div>
-                <div class="progress-percentage">
-                    <h5>1 yr</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="programs-container">
-            <h3>Programs</h3>
-            <div class="programs-icons">
-                <img src="imgs/icons8-figma.svg" alt="">
-                <img src="imgs/icons8-visual-studio-code-2019-96.png" alt="">
-                <img src="imgs/icons8-adobe-xd-96.png" alt="">
-                <img src="imgs/icons8-adobe-photoshop-96.png" alt="">
-                <img src="imgs/icons8-adobe-illustrator-96.png" alt="">
-                <img src="imgs/icons8-microsoft-word-2019-96.png" alt="">
-                <img src="imgs/icons8-microsoft-excel-2019-96.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <!--Projects-->
-    <div class="projects-page" id="work">
-        <div id="overlay1" class="project-1-overlay">
-            <a href="javascript:void(0)" class="overlay1-close-btn" onclick="closeOverlay1()">&times;</a>
-            <div class="overlay1-content">
-                <h3 class="overlayTitle1">Move The Ball Synopsis</h3>
-                <p>This project is trying to communicate my skills in JavaScript and Bootstrap. I wanted to get
-                    experience using bootstrap as a front-end toolkit and use JavaScript to test my knowledge in HTML
-                    DOM manipulation. There are many companies that use toolkits and custom frameworks, so I thought
-                    this would be a good start. I built the framework using basic HTML and Bootstrap, then configured
-                    the buttons with JavaScript. You are able to move the ball around using the arrow buttons. You can
-                    also get creative and customize the ball! I wanted to see how much customization I could add into
-                    one small project. This is a nice small fun project to play create and play around in to learn
-                    JavaScript and Bootstrap.</p>
-            </div>
-        </div>
-        <div id="overlay2" class="project-2-overlay">
-            <a href="javascript:void(0)" class="overlay2-close-btn" onclick="closeOverlay2()">&times;</a>
-            <div class="overlay2-content">
-                <h3 class="overlayTitle2">Drinkies Synopsis</h3>
-                <p>This project is trying to communicate my skills in User Interface and Experience, and
-                    E&ndash;Commerce
-                    website planning. I wanted to gain experience designing and planning out an e-commerce website using
-                    Figma. Planning the website in Figma made the building of the skeleton of the website with HTML a
-                    lot easier. I was able to easily determine which tags to use and where to utilize them. This project
-                    was created with just the HTML and CSS programming languages. The website also includes a sign-up
-                    form to obtain a Drinkies membership. The form does not include form validation, which is something
-                    I wish to incorporate on future personal projects.</p>
-            </div>
-        </div>
-        <div id="overlay3" class="project-3-overlay">
-            <a href="javascript:void(0)" class="overlay3-close-btn" onclick="closeOverlay3()">&times;</a>
-            <div class="overlay3-content">
-                <h3 class="overlayTitle3">Portfolio 1.0 Synopsis</h3>
-                <p>This project is the first rendition of my portfolio. This portfolio was created for CMST 385 &ndash;
-                    Principles of Web Design and Technology 1 here at UMGC. This project showcases the basic knowledge
-                    and usage of HTML and CSS tags, classes, and lists. It also showcases my graphic design and color
-                    scheme skills. The color scheme for this project is a rainbow theme because my goal was to
-                    incorporate web development with vibrant art. In this project, I was able to create a navigation bar
-                    using links and use unordered lists. The navigation bar uses buttons, decorated as icons, to link to
-                    3 different pages: the about page, projects page and contact page. Each page shows their respective
-                    information and link to each other throughout the site.</p>
-            </div>
-        </div>
-        <div id="overlay4" class="project-4-overlay">
-            <a href="javascript:void(0)" class="overlay4-close-btn" onclick="closeOverlay4()">&times;</a>
-            <div class="overlay4-content">
-                <h3 class="overlayTitle1">Sandwichies Synopsis</h3>
-                <p>This project, “Sandwichies”, is a personal project used to simulate the creation of an HTML email. I
-                    wanted to try my hand at the design and implementation of this web marketing format. I wrote this
-                    project in Microsoft Visual Studio Code using just the basic HTML and CSS programming languages. The
-                    standard practice is to avoid using in-line styling, however for some mass email distributing
-                    platforms it is required, so I included my styling in that form. I wanted to aim for a classic,
-                    minimalistic design for this project and opted in for a black and white color scheme. By using this
-                    color theme, it shifts the focus onto the image, which is the product being sold, a sandwich or
-                    burger.</p>
-            </div>
-        </div>
-        <div id="overlay5" class="project-5-overlay">
-            <a href="javascript:void(0)" class="overlay5-close-btn" onclick="closeOverlay5()">&times;</a>
-            <div class="overlay5-content">
-                <h3 class="overlayTitle5">MGAKA Synopsis</h3>
-                <p>This project is a personal project used to practice utilization of Figma, and my skills in User
-                    Interface and Experience Design. The goal of this project was to create an all&ndash;in&ndash;one
-                    landing,
-                    portfolio, and contact page for a client who is a comic book artist. The client in this project was
-                    looking to also get their E&ndash;commerce comic book shop website designed and built by me. I used
-                    Figma
-                    for this entire project. In Figma, you can utilize the column feature. This column feature allows
-                    you to mimic the 12&ndash;column setup that you create using CSS grid. Using the 12&ndash;column CSS
-                    grid
-                    ensures that your webpage can be setup to be web responsive, which was a big point that I wanted to
-                    make when completing this project. Because this design was set up using the 12&ndash;column CSS grid
-                    formatting, it can be easily written in code exactly how it was designed, which will satisfy the
-                    client.</p>
-            </div>
-        </div>
-        <div id="overlay6" class="project-6-overlay">
-            <a href="javascript:void(0)" class="overlay6-close-btn" onclick="closeOverlay6()">&times;</a>
-            <div class="overlay6-content">
-                <h3 class="overlayTitle6">Baby Bee's Chunky Knit Blankets Synopsis</h3>
-                <p>This project was an assignment for CMST 308&ndash;User Experience and Interface Design here at UMGC. The
-                    goal of this website was to plan, design, and create a working demo for a website of our choice. I
-                    drafted the concept of an E&ndash;commerce website for a merchant that would sell chunky knit woven
-                    blankets. Outside of Figma, which is where I created the wireframes and demo, I created a mood board
-                    of websites from clothing businesses such as Nike, Old Navy, and Ugg. The demo allows the user to
-                    begin at the main landing page of the website. From there you can click the “Shop Blankets” call to
-                    action button, which will redirect you to the shop page. The shop page displays all the items in
-                    grid format, with their names, prices, and the add to cart button. There is also a filter system on
-                    the left side of the page that allows you to choose a specific blanket size. After clicking the add
-                    to cart button, you are redirected to the item detail page, allowing the user to customize the items
-                    and add multiple items if they wish. The price also updates as they increase the number of items in
-                    their cart. Clicking the add to cart button again will bring you to your shopping cart where you can
-                    add your coupon, then submit your purchase. After completing the purchase, the site asks you to
-                    leave a review. This project demonstrates my understanding of an e-commerce website workflow, and
-                    usability of its features to help a user purchase an item.</p>
-            </div>
-        </div>
-
-        <div class="projects-header">
-            <h2>Projects</h2>
-        </div>
-        <div class="projects-description">
-            <h1>Here's what I've worked on this year!</h1>
-        </div>
-        <div class="projects-grid">
-            <div class="overlay-container">
-                <a href="https://jalahroundt.github.io/Portfolio/MoveTheBall/index.html" target="_blank">
-                    <div class="projects-card-description">
-                        <h6>#1 Move The Ball (2022)<br>Personal JavaScript Project in VS Code</h6>
-                    </div>
-                    <div class="projects-card card-green">
-                        <img src="imgs/movetheball-thumbnail.png">
-                    </div>
-                </a>
-                <button class="synopsis-btn" onclick="openOverlay1()">Read Synopsis</button>
-            </div>
-            <div class="overlay-container">
-                <a href="https://jalahroundt.github.io/Portfolio/Drinkies/index.html" target="_blank">
-                    <div class="projects-card-description">
-                        <h6>#2 Drinkies (2022)<br>Personal E-Commerce Site Project in VS Code</h6>
-                    </div>
-                    <div class="projects-card">
-                        <img src="imgs/drinkies_ss copy.png">
-                    </div>
-                </a>
-                <button class="synopsis-btn" onclick="openOverlay2()">Read Synopsis</button>
-            </div>
-            <div class="overlay-container">
-                <a href="https://jalahroundt.github.io/Portfolio/Portfolio-1.0/index.html" target="_blank">
-                    <div class="projects-card-description">
-                        <h6>#3 Portfolio 1.0 CMST 385 (2022)<br>Personal Portfolio Project in VS Code</h6>
-                    </div>
-                    <div class="projects-card card-yellow">
-                        <img src="imgs/portfolio1.0-thumbnail.png">
-                    </div>
-                </a>
-                <button class="synopsis-btn" onclick="openOverlay3()">Read Synopsis</button>
-            </div>
-            <div class="overlay-container">
-                <a href="https://jalahroundt.github.io/Portfolio/HTML-Email/Sandwichies/index.html" target="_blank">
-                    <div class="projects-card-description">
-                        <h6>#4 Sandwichies (2022)<br>Personal HTML-Email Project in VS Code</h6>
-                    </div>
-                    <div class="projects-card">
-                        <img src="imgs/Sandwichies-SS1.png">
-                    </div>
-                </a>
-                <button class="synopsis-btn" onclick="openOverlay4()">Read Synopsis</button>
-            </div>
-            <div class="overlay-container">
-                <a href="https://www.behance.net/gallery/145861019/Comic-Store-UI-Design" target="_blank">
-                    <div class="projects-card-description">
-                        <h6>#5 MGAKA (2022)<br>Personal E-Commerce Site Project in VS Code</h6>
-                    </div>
-                    <div class="projects-card card-yellow">
-                        <img src="imgs/mgaka-thumbnail.png">
-                    </div>
-                </a>
-                <button class="synopsis-btn" onclick="openOverlay5()">Read Synopsis</button>
-            </div>
-            <div class="overlay-container">
-                <a href="https://www.figma.com/community/file/1101931576406954979" target="_blank">
-                    <div class="projects-card-description">
-                        <h6>#6 BBCKB CMST 308 (2022)<br>Personal E-Commerce Site Project in VS Code</h6>
-                    </div>
-                    <div class="projects-card card-green">
-                        <img src="imgs/BBCKB-thumbnail.png">
-                    </div>
-                </a>
-                <button class="synopsis-btn" onclick="openOverlay6()">Read Synopsis</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact -->
-    <div class="contact-page" id="contact">
-        <div class="contact-text">
-            <div class="contact-header">
-                <h1>Let's talk!</h1>
-            </div>
-            <div class="contact-description">
-                <p>Use the contact form to send a quick message to my gmail address. All messages will be sent to <b><a
-                            href="mailto:jalahroundt@gmail.com">jalahroundt@gmail.com.</a></b> I check my emails
-                    everyday, I will be sure to get back to you quickly. For an urgent response, feel free to contact me
-                    on my cell at (410) 900-3777.</p>
-            </div>
-        </div>
-        <div class="form-container">
-            <form action="https://formspree.io/f/xeqnwqgb" method="POST">
-
-                <div class="top-form">
-                    <div class="top-form-column">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Name...">
-                    </div>
-
-                    <div class="form-space"></div>
-
-                    <div class="top-form-column">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Email...">
-                    </div>
-                </div>
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" placeholder="Subject...">
-
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-                <input id="submit" type="submit" value="Send Message">
-
-            </form>
-        </div>
-    </div>
-</div>
     <footer>
         <div class="main-social-links">
             <ul>
